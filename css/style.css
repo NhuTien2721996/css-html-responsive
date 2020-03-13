@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Big Shoulders Display', cursive;
+    box-sizing: border-box;
+    /*width: 100%;*/
+    background-image: url("../images/bg-main.jpg");
+    background-size: cover;
+
+
+}
+
+/*----LOGO----*/
+.module-left {
+    width: 237px;
+    float: left;
+    background-color: #194336;
+    position: relative;
+}
+
+.module-left .logo {
+    padding: 6px 27px;
+    text-align: center;
+}
+
+.logo .nameImage{
+    width: 123px;
+}
+
+
+/*---MENU---*/
+
+/*Danh mục*/
+.module-menu .menu,
+.module-menu .menu-1{
+    margin-top: 35px;
+    margin-left: 28px;
+}
+
+.menu-title{
+    /*margin-top: -10px;*/
+}
+
+.menu-title a {
+    text-decoration: none;
+}
+
+.menu-title .span-text {
+    font-size: 18px;
+    color: white;
+    margin-left: 16px;
+}
+
+.menu-title img {
+    width: 19px;
+    height: 19px;
+    margin-bottom: 10px;
+}
+
+.menu-detail {
+    margin-top: 9px;
+    margin-left: 22px;
+}
+
+.menu ul,
+.menu-1 ul{
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.menu ul li ,
+.menu-1 ul li{
+    color: white;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 7px;
+    margin-left: 5px
+}
+
+.module-menu .menu-1{
+    margin-top: 26px;
+    margin-left: 28px;
+}
+
+/*--Footer--*/
+
+.copyright p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.module-footer {
+    margin: 78px auto;
+}
+
+.module-footer .copyright {
+    margin: auto;
+    padding: 10px 15px;
+}
+
+/*--Main--*/
+
+/*--search--*/
+.search {
+    margin-top: 6px;
+    /*margin-left: 20px;*/
+    padding: 0 35px;
+    position: relative;
+}
+
+.search .icon-search {
+    position: absolute;
+    top: 50%;
+    left: 46px;
+    transform: translateY(-50%);
+}
+
+.icon-search i {
+    font-size: 17px;
+    color: #1d433b;
+}
+
+.search input {
+    border: 1px solid #bed5ed;
+    border-radius: 50px;
+    padding: 9px 64px;
+}
+
+.module-right {
+    width: 83%;
+    float: left;
+
+}
+
+/*--Main-content--*/
+
+/*--Input--*/
+.main-header {
+    padding-top: 10px;
+    background: white;
+    padding-bottom: 20px;
+}
+
+.create {
+    margin: 36px 32px;
+    background: white;
+    border-radius: 10px;
+}
+
+.create-title {
+    margin-bottom: -35px;
+}
+
+.create-title .title{
+    padding-top: 21px;
+}
+
+.create-title img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 18px;
+    margin-right: 20px;
+}
+
+.create-title .text {
+    font-size: 33px;
+    color: #0364a7;
+}
+
+.box .row{
+    margin-top: 13px;
+}
+
+.box .name {
+    margin: auto;
+    font-size: 18px;
+    display: block;
+    color: #484953;
+}
+
+.box .form-input {
+    border: 1px solid #74a5d8;
+    border-radius: 4px;
+    width: 100%;
+    height: 31px;
+}
+
+.box .btn {
+    width: 100%;
+    background: #163d35;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.create-input .box {
+    padding: 50px 68px;
+}
+
+.create-button .edit-staff {
+    float: left;
+    background: #ff9600;
+    padding: 3px 38px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.create-button .delete-staff {
+    float: left;
+    background: #ed0404;
+    padding: 3px 33px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.create-button .add-staff {
+    float: left;
+    background: #0072ff;
+    border-radius: 25px;
+    font-size: 18px;
+    padding: 3px 32px;
+    position: absolute;
+    right: 15px;
+}
+
+.create-button a {
+    color: white;
+}
+
+.create-button {
+    margin: 38px auto 0px;
+    padding: 0 15px;
+    position: relative;
+    width: 100%;
+}
+
+/*--Table--*/
+.table {
+    margin: 9px 15px 0;
+    border: 1px solid #c7dbef;
+    line-height: 31px;
+}
+
+.table thead th {
+    font-size: 20px;
+    font-weight: 500;
+    background: #4b5165;
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    border-bottom: 1px solid #c7dbef;
+    border-top: 1px solid #c7dbef;
+}
+
+nav {
+    font-size: 18px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+/*--Media--*/
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+    .create-input .button {
+        margin: 0 auto;
+    }
+
+    .table thead th {
+        font-size: 15px;
+    }
+
+    .create-title .text {
+        font-size: 25px;
+    }
+
+    .create-button .edit-staff {
+        padding: 0 15px;
+        font-size: 18px;
+    }
+
+    .create-button .delete-staff {
+        padding: 0 26px;
+        font-size: 18px;
+    }
+
+    .create-button .add-staff {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+
+    .logo img {
+        /*transform: scale(0.8);*/
+    }
+
+    .module-left .logo {
+        padding: 0;
+    }
+
+    .menu-detail .list {
+        padding: 0 1px;
+    }
+
+    .menu-detail ul{
+        padding-left: 44px;
+    }
+    .menu-detail .list li {
+        font-size: 13px;
+    }
+
+    .menu-title img {
+        display: none;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    nav {
+        font-size: 15px;
+    }
+
+    .module-footer .copyright {
+        margin: auto;
+        padding: 55px 15px;
+    }
+
+    .create-input .box {
+        padding: 60px 15px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .create-input .box {
+        padding: 30px 15px;
+    }
+
+    .table thead th {
+        font-size: 13px;
+    }
+
+    .logo img {
+        transform: scale(0.6);
+    }
+
+    .module-left .logo {
+        margin-left: -15px;
+    }
+
+    .module-footer .copyright {
+        padding: 156px 4px
+    }
+
+    .menu-title .span-text {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .module-footer {
+        margin: 2px auto;
+    }
+
+    .module-left {
+        /*display: none;*/
+        position: fixed;
+        width: 30%;
+        /*height: 100vh;*/
+        z-index: 1;
+        left: -30%;
+        transition: all .5s;
+    }
+
+    #check:checked  .module-left {
+        transform: translateX(100%);
+    }
+
+    .module-right {
+        width: 100%;
+    }
+
+
+    .box .btn {
+        width: 50%;
+        transform: translateX(50%);
+    }
+
+    .table {
+        margin: 15px;
+    }
+
+    .create {
+        margin: 20px 20px;
+    }
+
+    /*body:hover .module-left{*/
+    /*    transform: translateX(100%);*/
+    /*}*/
+
+}
+
+@media (max-width: 575.98px) {
+    .module-left {
+        margin-left: -60px;
+        transition: all 1s ease-in;
+    }
+
+    .module-right {
+        width: 100%;
+    }
+
+    .module-left:hover {
+        transform: translateX(60px);
+        z-index: 1;
+    }
+
+    .create-button .edit-staff {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .create-button .delete-staff {
+        width: 100%;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .create-button .add-staff {
+        position: relative;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        margin-left: 15px;
+    }
+
+    .create-button {
+        margin-top: 25px;
+    }
+
+    .create {
+        margin: auto 15px;
+    }
+
+    .main-margin{
+        margin: 15px auto;
+    }
+
+
+}
+
+@media (max-width: 350px) {
+
+    .table {
+        margin: 15px auto;
+    }
+}
+
+.table tr:hover {
+    background: #ebf3fd;
+    cursor: pointer;
+}
+
+.icon {
+    top: 50%;
+    position: absolute;
+    right: -17px;
+}
+
+.create-title .icon-menu {
+    margin-right: 30px;
+    float: right;
+}
+
+.
